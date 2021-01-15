@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Youtube Bookmark</string>
+
+    <!--activity_onboarding.xml-->
+        <string name="add_button_by_on_boarding">Add button by on boarding</string>
+        <string name="youtube_main">Youtube main</string>
+        <string name="youtube_title">Youtube title</string>
+        <string name="youtube_channel">Youtube channel</string>
+        <string name="_100">조회수 100만회</string>
+        <string name="_1">1년 전</string>
+        <string name="youtube_content">Youtube content</string>
+        <string name="youtube_title_content">Youtube Title</string>
+        <string name="_100_content">조회수 100만회</string>
+        <string name="youtube_share">Youtube share</string>
+        <string name="youtube_share_text">공유</string>
+        <string name="youtube_select">Youtube select</string>
+        <string name="thumbnail">Thumbnail</string>
+        <string name="_3_20">3분 20초</string>
+        <string name="go_youtube">이동</string>
+        <string name="alert_dialog_image">Alert dialog image</string>
+        <string name="alert_title">동영상 제목</string>
+        <string name="hour">시</string>
+        <string name="hour_text">시간</string>
+        <string name="min">분</string>
+        <string name="sec">초</string>
+        <string name="cancel_btn">취소</string>
+        <string name="add_btn">추가</string>
+        <!--MainActivity.java-->
+        <string name="go_yotube_menu">유튜브로 이동합니다.</string>
+        <string name="video">동영상</string>
+        <string name="modified">수정</string>
+        <string name="dont_any_input">시간 값을 입력하지 않으면\n0시간 0분 0초로 설정됩니다.</string>
+        <string name="dont_one">시간, 분 또는 초만 입력할 경우 입력하지 않은 항목이 0으로 설정됩니다.</string>
+        <string name="deleted_all">모두 제거되었습니다.</string>
+        <string name="set_sec">초로 설정되었습니다.</string>
+        <!--OnboardingActivity.java-->
+        <string name="show_add_list_btn">상단 \"+\" 버튼을 눌러 추가하세요.\n버튼을 누르면 유튜브 앱으로 이동합니다.</string>
+        <string name="show_main_youtube_youtube">유튜브</string>
+        <string name="show_main_youtube">유튜브에서 원하는 동영상을 시청하세요.</string>
+        <string name="show_content_view_youtube_pr">유튜브 화면</string>
+        <string name="show_content_youtube_se">유튜브 동영상 화면입니다.</string>
+        <string name="show_share_button_pr">공유</string>
+        <string name="show_share_button_se">시청을 도중에 중단하고 싶으면, 하단에 공유 버튼을 눌러주세요</string>
+        <string name="show_share_app_pr">앱 선택</string>
+        <string name="show_share_app_se">저희 앱을 선택해 주세요.</string>
+        <string name="show_setting_view_pr">동영상 설정</string>
+        <string name="show_setting_view_se">저희 앱을 선택하면 다음과 같이 동영상 설정 화면이 나타납니다.</string>
+        <string name="show_thumb_alert_pr">썸네일</string>
+        <string name="show_thumb_alert_se">선택한 동영상의 썸네일이 나타납니다.</string>
+        <string name="alert_title_pr">동영상 제목</string>
+        <string name="alert_title_sec">동영상 제목을 설정할 수 있습니다.</string>
+        <string name="et_hour_pr">시작 시간 (시)</string>
+        <string name="et_hour_se">시작 시간을 설정할 수 있습니다.\n아무것도 입력하지 않으면 0으로 설정됩니다.</string>
+        <string name="et_min_pr">시작 시간 (분)</string>
+        <string name="et_min_se">시작 시간을 설정할 수 있습니다.\n아무것도 입력하지 않으면 0으로 설정됩니다.</string>
+        <string name="et_sec_pr">시작 시간 (초)</string>
+        <string name="et_sec_se">시작 시간을 설정할 수 있습니다.\n아무것도 입력하지 않으면 0으로 설정됩니다.</string>
+        <string name="add_list_btn_se">\"추가\" 버튼을 눌러 항목을 추가할 수 있습니다.</string>
+        <string name="show_card_pr">리스트</string>
+        <string name="show_card_se">설정이 완료되면 선택한 동영상의 리스트가 추가됩니다.</string>
+        <string name="show_button_pr">썸네일</string>
+        <string name="show_button_se">선택한 동영상의 썸네일 이미지가 표시됩니다.</string>
+        <string name="show_title_pr">동영상 제목</string>
+        <string name="show_title_se">선택한 동영상의 제목이 표시됩니다.\n동영상 제목은 수정할 수 있습니다.</string>
+        <string name="show_time_pr">시작 시간</string>
+        <string name="show_time_se">지정한 시간부터 유튜브 재생을 시작할 수 있습니다.\n시작 시간은 수정할 수 있습니다.</string>
+        <string name="show_start_button_pr">유튜브 이동</string>
+        <string name="show_start_button_se">유튜브로 이동해서 지정한 시간부터 영상이 재생됩니다.</string>
+        <string name="show_like_pr">좋아요</string>
+        <string name="show_like_se">내가 원하는 항목들에 \"좋아요\"를 표시할 수 있습니다.</string>
+        <string name="show_remove_pr">제거</string>
+        <string name="show_remove_se">원치 않는 항목은 제거할 수 있습니다.</string>
+        <!--menu.xml-->
+        <string name="delete_all">모두 제거</string>
+        <string name="re_dec">설명 다시보기</string>
+        <string name="app_info">앱 정보</string>
+        <!--CustomAdapter.java-->
+        <string name="deleted"> 삭제되었습니다.</string>
+        <string name="go_youtube_recycle"> 유튜브로 이동합니다.</string>
+</resources>

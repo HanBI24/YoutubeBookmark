@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Youtube Bookmark</string>
+    <!--activity_onboarding.xml-->
+    <string name="add_button_by_on_boarding">搭乗時にボタンを追加</string>
+    <string name="youtube_main">Youtubeメイン</string>
+    <string name="youtube_title">Youtubeタイトル</string>
+    <string name="youtube_channel">Youtubeチャンネル</string>
+    <string name="_100">100万ビュー</string>
+    <string name="_1">1年前</string>
+    <string name="youtube_content">Youtubeコンテンツ</string>
+    <string name="youtube_title_content">Youtubeタイトル</string>
+    <string name="_100_content">100万ビュー</string>
+    <string name="youtube_share">Youtubeシェア</string>
+    <string name="youtube_share_text">シェア</string>
+    <string name="youtube_select">Youtube select</string>
+    <string name="thumbnail">サムネイル</string>
+    <string name="_3_20">3分20秒</string>
+    <string name="go_youtube">移動する</string>
+    <string name="alert_dialog_image">画像ダイアログアラートe</string>
+    <string name="alert_title">ビデオタイトル</string>
+    <string name="hour">時間</string>
+    <string name="hour_text">時間</string>
+    <string name="min">分</string>
+    <string name="sec">セカンド</string>
+    <string name="cancel_btn">キャンセル</string>
+    <string name="add_btn">追加</string>
+    <!--MainActivity.java-->
+    <string name="go_yotube_menu">YouTubeにアクセスします。</string>
+    <string name="video">ビデオ</string>
+    <string name="modified">変更</string>
+    <string name="dont_any_input">時間値を入力しない場合は、\n0時間0分0秒に設定されています.</string>
+    <string name="dont_one">時間、分、または秒のみを入力すると、未入力の項目はゼロに設定されます。</string>
+    <string name="deleted_all">すべて削除されました。</string>
+    <string name="set_sec">2番目に設定されました。</string>
+    <!--OnboardingActivity.java-->
+    <string name="show_add_list_btn">上部の「+」ボタンを押して追加します。\nボタンを押してYouTubeアプリに移動します。</string>
+    <string name="show_main_youtube_youtube">Youtube</string>
+    <string name="show_main_youtube">YouTubeで必要なビデオをご覧ください。</string>
+    <string name="show_content_view_youtube_pr">Youtube画面</string>
+    <string name="show_content_youtube_se">これはYouTubeのビデオ画面です。</string>
+    <string name="show_share_button_pr">シェア</string>
+    <string name="show_share_button_se">視聴をやめたい場合は、下部にある共有ボタンをクリックしてください</string>
+    <string name="show_share_app_pr">アプリを選択してください</string>
+    <string name="show_share_app_se">私たちのアプリを選択してください.</string>
+    <string name="show_setting_view_pr">ビデオ設定</string>
+    <string name="show_setting_view_se">アプリを選択すると、動画設定画面は以下のように表示されます.</string>
+    <string name="show_thumb_alert_pr">サムネイル</string>
+    <string name="show_thumb_alert_se">選択した動画のサムネイルが表示されます。</string>
+    <string name="alert_title_pr">ビデオタイトル</string>
+    <string name="alert_title_sec">動画のタイトルを設定できます。</string>
+    <string name="et_hour_pr">開始時間（時間）</string>
+    <string name="et_hour_se">開始時間を設定できます。\n何も入力されていない場合は、0に設定されます。</string>
+    <string name="et_min_pr">開始時間（分)</string>
+    <string name="et_min_se">開始時間を設定できます。\n何も入力されていない場合は、0に設定されます。</string>
+    <string name="et_sec_pr">開始時間（秒）</string>
+    <string name="et_sec_se">開始時間を設定できます。\n何も入力されていない場合は、0に設定されます</string>
+    <string name="add_list_btn_se">「追加」ボタンを押すと、アイテムを追加できます。</string>
+    <string name="show_card_pr">リスト</string>
+    <string name="show_card_se">セットアップが完了すると、選択したビデオのリストが追加されます。</string>
+    <string name="show_button_pr">サムネイル</string>
+    <string name="show_button_se">選択した動画のサムネイル画像が表示されます。</string>
+    <string name="show_title_pr">ビデオタイトル</string>
+    <string name="show_title_se">選択した動画のタイトルが表示されます.\n動画のタイトルは変更できます。</string>
+    <string name="show_time_pr">始まる時間</string>
+    <string name="show_time_se">指定した時間からYouTubeの再生を開始できます。\n開始時刻は変更できます。</string>
+    <string name="show_start_button_pr">Youtube移動</string>
+    <string name="show_start_button_se">YouTubeにアクセスして、指定した時間からビデオを再生します。</string>
+    <string name="show_like_pr">お気に入り</string>
+    <string name="show_like_se">必要なアイテムに「いいね」のマークを付けることができます。</string>
+    <string name="show_remove_pr">削除する</string>
+    <string name="show_remove_se">不要なアイテムを削除できます。</string>
+    <!--menu.xml-->
+    <string name="delete_all">すべて削除する</string>
+    <string name="re_dec">説明リプレイ</string>
+    <string name="app_info">アプリ情報</string>
+    <!--CustomAdapter.java-->
+    <string name="deleted"> 削除されました。</string>
+    <string name="go_youtube_recycle"> YouTube に行くe</string>
+</resources>

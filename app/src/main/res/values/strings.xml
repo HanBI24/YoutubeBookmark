@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Youtube Bookmark</string>
+
+    <!--activity_onboarding.xml-->
+    <string name="add_button_by_on_boarding">Add button by on boarding</string>
+    <string name="youtube_main">Youtube main</string>
+    <string name="youtube_title">Youtube title</string>
+    <string name="youtube_channel">Youtube channel</string>
+    <string name="_100">1M views</string>
+    <string name="_1">1 year ago</string>
+    <string name="youtube_content">Youtube content</string>
+    <string name="youtube_title_content">Youtube Title</string>
+    <string name="_100_content">1M views</string>
+    <string name="youtube_share">Youtube share</string>
+    <string name="youtube_share_text">Share</string>
+    <string name="youtube_select">Youtube select</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="_3_20">3 minutes 20 seconds</string>
+    <string name="go_youtube">move</string>
+    <string name="alert_dialog_image">Alert dialog image</string>
+    <string name="alert_title">Video title</string>
+    <string name="hour">hour</string>
+    <string name="hour_text">hour</string>
+    <string name="min">minute</string>
+    <string name="sec">second</string>
+    <string name="cancel_btn">Cancel</string>
+    <string name="add_btn">Add</string>
+    <!--MainActivity.java-->
+    <string name="go_yotube_menu">Go to YouTube.</string>
+    <string name="video">Video</string>
+    <string name="modified">Modified</string>
+    <string name="dont_any_input">If you do not enter a time value,\nit is set to 0 hours 0 minutes 0 seconds.</string>
+    <string name="dont_one">If you enter only hours, minutes, or seconds, the unentered item is set to zero.</string>
+    <string name="deleted_all">All have been removed.</string>
+    <string name="set_sec">It was set in second.</string>
+    <!--OnboardingActivity.java-->
+    <string name="show_add_list_btn">Add by pressing the \"+\" button at the top.\nPress the button to go to the YouTube app.</string>
+    <string name="show_main_youtube_youtube">Youtube</string>
+    <string name="show_main_youtube">Watch the video you want on YouTube.</string>
+    <string name="show_content_view_youtube_pr">Youtube screen</string>
+    <string name="show_content_youtube_se">This is the YouTube video screen.</string>
+    <string name="show_share_button_pr">Share</string>
+    <string name="show_share_button_se">If you want to stop watching, please click the share button at the bottom</string>
+    <string name="show_share_app_pr">Choose an app</string>
+    <string name="show_share_app_se">Please select our app.</string>
+    <string name="show_setting_view_pr">Video settings</string>
+    <string name="show_setting_view_se">When you select our app, the video settings screen appears as follows.</string>
+    <string name="show_thumb_alert_pr">Thumbnail</string>
+    <string name="show_thumb_alert_se">A thumbnail of the selected video appears.</string>
+    <string name="alert_title_pr">Video title</string>
+    <string name="alert_title_sec">You can set the video title.</string>
+    <string name="et_hour_pr">Start time (hours)</string>
+    <string name="et_hour_se">You can set the start time.\nIf nothing is entered, it is set to 0.</string>
+    <string name="et_min_pr">Start time (minutes)</string>
+    <string name="et_min_se">You can set the start time.\nIf nothing is entered, it is set to 0.</string>
+    <string name="et_sec_pr">Start time (seconds)</string>
+    <string name="et_sec_se">You can set the start time.\nIf nothing is entered, it is set to 0.</string>
+    <string name="add_list_btn_se">You can add items by pressing the \"Add\" button.</string>
+    <string name="show_card_pr">List</string>
+    <string name="show_card_se">When setup is complete, a list of selected videos is added.</string>
+    <string name="show_button_pr">Thumbnail</string>
+    <string name="show_button_se">A thumbnail image of the selected video is displayed.</string>
+    <string name="show_title_pr">Video title</string>
+    <string name="show_title_se">The title of the selected video is displayed.\n동영상 제목은 수정할 수 있습니다.</string>
+    <string name="show_time_pr">Start time</string>
+    <string name="show_time_se">You can start playing YouTube from the specified time.\nThe start time can be modified.</string>
+    <string name="show_start_button_pr">Youtube move</string>
+    <string name="show_start_button_se">Go to YouTube and play the video from the specified time.</string>
+    <string name="show_like_pr">Like</string>
+    <string name="show_like_se">You can mark the items you want with \"Like\".</string>
+    <string name="show_remove_pr">Remove</string>
+    <string name="show_remove_se">You can remove unwanted items.</string>
+    <!--menu.xml-->
+    <string name="delete_all">Remove all</string>
+    <string name="re_dec">Description Replay</string>
+    <string name="app_info">App info</string>
+    <!--CustomAdapter.java-->
+    <string name="deleted"> Has been deleted.</string>
+    <string name="go_youtube_recycle"> Go to YouTube</string>
+
+
+</resources>

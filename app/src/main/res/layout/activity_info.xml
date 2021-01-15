@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.InfoActivity">
+
+    <TextView
+        android:id="@+id/license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open Source License"
+        android:textSize="20sp"
+        android:padding="20dp"
+        style="@style/Text.TitleStyle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:background="#0C0C0C"/>
+
+    <TextView
+        android:id="@+id/use_icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Icon &amp; Font Info"
+        android:textSize="20sp"
+        android:padding="20dp"
+        style="@style/Text.TitleStyle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_centerInParent="true"
+        android:background="#000000"/>
+</LinearLayout>
