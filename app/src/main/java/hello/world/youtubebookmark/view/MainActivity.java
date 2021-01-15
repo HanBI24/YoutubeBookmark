@@ -197,8 +197,21 @@ public class MainActivity extends AppCompatActivity implements androidx.appcompa
                     bookEntity = new BookEntity(titleList, Integer.toString(time), timeUrl, thumbNailLink, sharedText);
                     bookEntityLike = new BookEntityLike(false);
 
-                    mAdapter.insert(bookEntity);
-                    mAdapter.insertLike(bookEntityLike);
+                    // Create test.
+                    new Thread(()-> {
+                    for(int i=0; i<1000; i++) {
+                        mAdapter.insert(bookEntity);
+                        mAdapter.insertLike(bookEntityLike);
+                        try {
+                            Thread.sleep(100);
+                        } catch (InterruptedException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                    }).start();
+
+//                    mAdapter.insert(bookEntity);
+//                    mAdapter.insertLike(bookEntityLike);
 
                     InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
                     imm.toggleSoftInput(InputMethodManager.HIDE_IMPLICIT_ONLY, 0);
